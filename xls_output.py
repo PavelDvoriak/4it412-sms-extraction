@@ -15,7 +15,7 @@ def output_to_xls(data: dict, xls_path=None) -> None:
            
 
     if xls_path:
-        wb.save(xls_path)
+        wb.save(f'{xls_path}.xlsx')
     else:    
         wb.save('result.xlsx')
 
